@@ -1,10 +1,10 @@
 import streamlit as st
-from transformers import BertTokenizer, BertForSequenceClassification
 import torch
+from transformers import BertTokenizer, BertForSequenceClassification
 import torch.nn.functional as F
 import gdown
 import os
-import shutil
+
 
 # -----------------------------
 # CONFIG
